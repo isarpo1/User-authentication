@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+
+    <link rel ="stylesheet" href = "loginstyle.css"/>
+    <script src="https://www.gstatic.com/firebasejs/9.9.1/firebase-app-compat.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/9.9.1/firebase-firestore-compat.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/9.9.1/firebase-auth-compat.js"></script>
+
+    <head>
+           <header>
+               <!--Add navigation bar so that you cna go back to home page -->
+               <!--File should let you log in and then sent to firebase to keep information, maybe add a create an account feature if not its ok 
+                the bases is to create user athentication, able to read user log in and retieve user information and password --!> 
+        <!-- title & content -->
+              <section class="header-content">
+              </section>
+          </header>
+          <body>
+              <div class = "traffic">
+                 <div class ="form-box"> 
+                    <div class ="button-box"> 
+                    
+                      <form>
+                        <div class ="form">
+                    <h1>Register</h1>
+                    <p>Create an Account</p>
+                    <hr>
+
+                    <label for="email"><b>Email</b></label><br>
+                    <input type = "text" placeholder="Enter Email" name="email" id="email" required><br></div>
+                    
+                    <label><b>Password</b></label>
+                    <input type="Password" placeholder=" Enter Password" name="psw" id="psw" required>
+                    <hr>
+
+                    <p>By creating an account you agree to our <a href="#">Terms & Privacy</a></p>
+                    <button ud="submit-btn" onclick="signUp()">Sign Up</button>
+                    </div>  
+
+
+                 <div class ="container signin">
+                    <p><br>Already have an account?<a href="#">Sign in</a></p><br>
+                </div>
+                 </form>
+
+                </div>
+              </div>
+              </div>
+            </body>
+          
+    </head>
+</html>
